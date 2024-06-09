@@ -4,5 +4,29 @@
 
 body {
   margin: 0;
+  padding: 20px;
   min-height: 100dvh;
+  background-color: #335;
+  color: aliceblue;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 8px;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+body div:first-of-type {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
